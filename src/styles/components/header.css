@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+ul {
+    gap: 30px;
+    display: flex;
+
+    list-style: none;
+}
+
+.consultation-button {
+    background: linear-gradient(to right, #FF3F3A, #F75E05);
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+
+    color: white;
+}
+
+.account {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.get-account {
+    gap: 10px;
+    display: flex;
+}

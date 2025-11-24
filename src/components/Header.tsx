@@ -1,0 +1,38 @@
+import { Link } from "react-router-dom"
+
+import logo from '../assets/header/logo.svg'
+import account from '../assets/header/account.svg'
+
+import '../styles/components/header.css'
+
+const Header = () => {
+    return (
+        <header>
+            <Link to="/">
+                <img src={ logo } alt=""></img>
+            </Link>
+
+            <nav>
+                <ul>
+                    <li>About Us</li>
+                    <li>Courses</li>
+                    <li>Events</li>
+                    <li>Blog</li>
+                    <li>Contacts</li>
+                </ul>
+            </nav>
+
+            <section className="account">
+                <button className="consultation-button">Get consultation</button>
+
+                <section className="get-account">
+                    <img src={ account } alt="" />
+
+                    <p>Log in / Register</p>
+                </section>
+            </section>
+        </header>
+    )
+}
+
+export default Header
