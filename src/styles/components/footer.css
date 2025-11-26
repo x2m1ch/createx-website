@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #1E212C;
+
+    color: white;
+    font-family: 'Lato';
+}
+
+p {
+    color: rgb(180, 178, 178);
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* ========== Footer Top ========== */
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 60px 0 60px 0;
+}
+
+/* Site Info */
+
+.site-info {
+    gap: 25px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.socials {
+    gap: 20px;
+    display: flex;
+}
+
+/* Site Map */
+
+.site-map {
+    gap: 15px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+/* Courses */
+
+.courses {
+    gap: 15px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+/* Contact Us */
+
+.contact-us {
+    gap: 15px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.contacts {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Get To Newsletter */
+
+.get-to-newsletter {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #35363b;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 280px;
+}
+
+/* ======== Footer Bottom ======== */
+
+.footer-bottom {
+    gap: 1300px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    background-color: #2f2f31;
+    padding: 15px 15px;
+
+    font-size: 13px;
+}
+
+.rights {
+    color: white;
+}

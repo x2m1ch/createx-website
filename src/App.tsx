@@ -2,6 +2,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom"
 
 import Main from "./pages/Main"
 
+import './reset.css'
+
 const App = () => {
   return (
     <>
