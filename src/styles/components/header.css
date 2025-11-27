@@ -5,8 +5,11 @@ header {
     align-items: center;
     justify-content: space-evenly;
 
+    color: #424551;
     font-family: "Lato";
     font-weight: bold;
+
+    margin: 10px 0 10px 0;
 }
 
 ul {

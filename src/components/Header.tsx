@@ -28,7 +28,7 @@ const Header = () => {
                 <section className="get-account">
                     <img src={ account } alt="" />
 
-                    <p>Log in / Register</p>
+                    <p style={{ color: '#424551' }}>Log in / Register</p>
                 </section>
             </section>
         </header>
