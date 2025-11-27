@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
-import logo from '../assets/header/logo.svg'
-import account from '../assets/header/account.svg'
+import logo from '../assets/components/header/logo.svg'
+import account from '../assets/components/header/account.svg'
 
 import '../styles/components/header.css'
 
