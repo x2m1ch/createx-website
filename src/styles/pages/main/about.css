@@ -1,0 +1,51 @@
+.about {
+    gap: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 150px 0 150px 0;
+    background: url(/src/assets/pages/main/about/background.png);
+
+    font-family: 'Lato';
+    color: #1E212C;
+}
+
+.about-column-two {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    color: #1E212C;
+}
+
+.about-heading {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bulleted-list {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bulleted-list-items {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bulleted-items-body {
+    color: #424551;
+}
+
+.more-about-button {
+    padding: 15px 40px;
+    border-radius: 4px;
+    background-color: #FF3F3A;
+
+    color: white;
+}

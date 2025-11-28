@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 
-    background: url(/src/assets/pages/main/background.png);
+    background: url(/src/assets/pages/main/hero/background.png);
     padding-bottom: 70px;
 
     font-family: 'Lato';
