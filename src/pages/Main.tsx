@@ -9,6 +9,7 @@ import check from '../assets/pages/main/about/check.svg'
 
 import '../styles/pages/main/hero.css'
 import '../styles/pages/main/about.css'
+import '../styles/pages/main/subscribe.css'
 
 const Main = () => {
     return (
@@ -105,6 +106,16 @@ const Main = () => {
 
                         <button className='more-about-button'>More about us</button>
                     </article>   
+                </section>
+
+                <section className='subscribe'>
+                    <h6 style={{fontSize: '18px' }}>Don’t miss anything</h6>
+                    <h2 style={{ fontSize: '40px', fontWeight: 'bold' }}>Subscribe to the Createx School <br /> announcements</h2>
+
+                    <article className='subscribe-form'>
+                        <input className='email-input' placeholder='Your working email' type="email" />
+                        <button className='subscribe-button'>Subscribe</button>
+                    </article>
                 </section>
             </main>
 
